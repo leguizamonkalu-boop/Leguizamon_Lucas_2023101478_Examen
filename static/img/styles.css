@@ -1,0 +1,207 @@
+/* ===== Global ===== */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== Navbar ===== */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* ===== Carousel ===== */
+#carousel {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 80%;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* ===== Brands Section ===== */
+#brands {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.brands-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.brand img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.brand p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* ===== Suscripción ===== */
+#suscripcion {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#suscripcion h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+#suscripcion form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#suscripcion input[type="text"],
+#suscripcion input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#suscripcion button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#suscripcion button:hover {
+    background-color: #e68a00;
+}
+
+/* ===== Login y Register ===== */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="email"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.container input[type="submit"] {
+    padding: 10px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+.container a {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
+.container a:hover {
+    color: #ff9900;
+}
+
+/* ===== Ejemplo ===== */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
